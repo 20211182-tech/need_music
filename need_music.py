@@ -9,7 +9,6 @@ posHEAD = 0
 posTAIL = 1
 posNODE = 2
 
-
 def insert(data, position=posHEAD, node=None):
     """연결 리스트에 새로운 항목 추가"""
     global head
@@ -168,7 +167,7 @@ class playlist:
 
 def play(music_name):
     """음악 재생 함수"""
-    print(f"🎵 '{music_name}' 재생 중...")
+    print(f"[MUSIC] '{music_name}' 재생 중...")
     # playsound 사용 시 실제 음악 파일 경로 필요
     # from playsound import playsound
     # playsound(music_name)
