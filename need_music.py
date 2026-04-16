@@ -72,6 +72,7 @@ def delete(position=posHEAD, node=None):
             prev.next = None
         return
 
+import pyglet
 
 class playlist:
     """플레이리스트 클래스: 원형 연결 리스트로 구현"""
